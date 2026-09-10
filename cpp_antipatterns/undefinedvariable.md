@@ -9,10 +9,10 @@ int main() {
     int a;
     int b;
 
-    cin >> a;
-    cin >> b;
+    std::cin >> a;
+    std::cin >> b;
 
-    cout << a << " " << b;
+    std::cout << a << " " << b;
 
     return 0;
 }
@@ -27,10 +27,10 @@ int main() {
     int a = 0;
     int b = 0;
 
-    cin >> a;
-    cin >> b;
+    std::cin >> a;
+    std::cin >> b;
 
-    cout << a << " " << b;
+    std::cout << a << " " << b;
 
     return 0;
 }
