@@ -15,7 +15,9 @@ int main() {
     cin >> a;
     cin >> b;
 
-    cout << a " " << b; 
+    cout << a << " " << b;
+
+    return 0;
 }
 ```
 
@@ -31,6 +33,8 @@ int main() {
     std::cin >> a;
     std::cin >> b;
 
-    std::cout << a << " " << b; 
+    std::cout << a << " " << b;
+
+    return 0;
 }
 ```
