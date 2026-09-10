@@ -3,8 +3,6 @@
 ### -0.5 балла за неинициализированную переменную
 
 ```cpp
-#include <iostream>
-
 int main() {
     int a;
     int b;
@@ -16,8 +14,6 @@ int main() {
 ### правильный вариант
 
 ```cpp
-#include <iostream>
-
 int main() {
     int a = 0;
     int b = 0;
