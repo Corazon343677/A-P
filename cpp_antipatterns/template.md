@@ -1,13 +1,27 @@
-# название ошибки
+# return
 
 ### как не надо
 
 ```cpp
-// пример кода как не надо
+#include <iostream>
+
+int main() {
+    int a = 0;
+
+    std::cout << a
+}
 ```
 
 ### правильный вариант
 
-```cpp
-// пример кода как надо
+```cpp  
+#include <iostream>
+
+int main() {
+    int a = 0;
+
+    std::cout << a
+
+    return 0;
+}
 ```
